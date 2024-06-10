@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/e93e2d8b3d32ca8939f28.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/e93e2d8b3d32ca8939f28.jpg')).split() #SAMPLE PI
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e93e2d8b3d32ca8939f28.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -123,9 +123,9 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
-
-# If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+# NOTE THAT IF ARE DEPLOYING THROUGH BUTTON PASTE OPEN APP LINK IN URL  # MOST COMMON ERROR    ------------------|
+# If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.                              |
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -133,7 +133,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://dnaezzz-7223f4ff33b5.herokuapp.com/")
+URL = environ.get("URL", "https://dankfilebot-3153c9403865.herokuapp.com/") # HERE MOST COMMON ERROR ------------|
 
 
 # Rename Info : If True Then Bot Rename File Else Not
