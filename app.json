@@ -1,0 +1,76 @@
+{
+    "name": "FILESTORE-BOT",
+    "description": " Advanced FILE STORE BOT.",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "inline"
+    ],
+    "website": "https://github.com/amitpatle/FILESTORE-BOT",
+    "repository": "https://github.com/amitpatle/FILESTORE-BOT",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "CHANNELS": {
+            "description": "ID of file channel. Separate multiple IDs by space.",
+            "required": true
+        },
+        "ADMINS": {
+            "description": "ID of Admin. Separate multiple Admins id by space.",
+            "required": true
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures.",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "required": true
+        },
+        "AUTH_USERS": {
+            "description": "ID of users to give access of auth command.Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "required": false
+        },
+        "AUTH_CHANNEL": {
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "required": false
+        },
+        "DATABASE_URI": {
+            "description": "mongoDB URI",
+            "required": true
+        },
+        "DATABASE_NAME": {
+            "description": "Name of the database in mongoDB. ",
+            "required": false
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections.",
+            "value": "Telegram_files",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
