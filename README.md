@@ -15,7 +15,46 @@
 - **Save Restricted Content & On/Off Toggle**
 - **Custom URL Shortener Support**
 
-## Variables
+
+<details>
+<summary><H3> SCREENSHOT </H3>
+</summary>
+  
+ INTERFACE 
+  
+![Image 9](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165945.jpg)
+
+![Image 8](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165928.jpg)
+
+ CUSTOM FILE STREAM
+
+![Image 7](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165903.jpg)
+
+
+ STREAM UI
+![Image 1](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_154820.jpg)
+
+ STEAM ERROR
+![Image 2](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_163756.jpg)
+
+ FILE STORE LINK
+ 
+![Image 5](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165729.jpg)
+
+  AUTO DELETE FILE 
+ 
+![Image 3](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165713.jpg)
+
+  USER INFO 
+
+![Image 4](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_165703.jpg)
+
+
+  CHANNEL LOG
+![Image 10](https://github.com/amitpatle/FILESTORE-BOT/blob/main/img/IMG_20240610_170006.jpg)
+
+</details>
+
 
 ### Required Variables
 * **`BOT_TOKEN`**: Create a bot using [@BotFather](https://telegram.dog/BotFather) and get the Telegram API token.
