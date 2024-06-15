@@ -61,6 +61,10 @@
             "description": "Name of the collections.",
             "value": "Telegram_files",
             "required": false
+        },
+        "URL": {
+            "description": "WEB Link (Required for Stream . ",
+            "required": false
         }
     },
     "addons": [],
